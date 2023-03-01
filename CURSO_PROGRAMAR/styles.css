@@ -1,0 +1,141 @@
+body{
+    background: linear-gradient(rgb(0, 68, 65), rgb(0, 122, 116), rgb(1, 196, 186));
+    font-size: larger;
+    }
+
+h2 {
+        border: solid 1px white;
+        padding: 5px;
+    }
+    
+
+section {
+    display: flex;
+    width: 100%;
+    height: 430px;
+    border: solid 1px;
+}
+
+section img {
+    float: left;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover {
+cursor: crosshair;
+height: 430px;
+width: 100%;
+opacity: 1;
+filter: contrast(120%);
+}
+
+header {
+    background-color: rgb(8, 71, 68) ;
+    border: solid 1px;
+    border-radius: 0 0 25px 25px;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.foto1 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: darkcyan 10px 10px;
+    margin: 20px;
+    padding: 0px;
+    border: solid 3px;
+}
+ 
+
+.titulo1  
+    {
+    clear: right;
+    font-family: 'Times New Roman', Times, serif, cursive;
+    text-align: center;
+    font-size: 100px;
+    padding: 1px;
+    border: 1px;
+    margin: 30px;
+    text-decoration: underline;
+    }
+
+.subtitulo1 
+    {font-family: 'Times New Roman', Times, serif, cursive;
+    text-align: center;
+    border: none;
+    }
+    
+nav {
+    width:90%;
+    margin:5px auto;
+    background-color:rgb(6, 102, 57);
+    text-align: center;
+    border: 0.5px solid;
+    border-radius: 10px ;
+    box-sizing: border-box;
+    }
+
+.nav-enlace {
+    text-align: center;
+    display: inline-block;
+    color: black ;
+    padding:  10px 30px ;
+    font-family: 'Times New Roman', Times, serif, cursive;}
+
+.nav-enlace:hover {
+    background-color: rgb(50, 164, 184) ; }
+
+
+.datos {
+    float: left;
+    width: 65%;
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    text-align: justify;
+    box-sizing: border-box;
+
+    }
+
+    @media only screen and (max-width:800px) {
+        .datos {
+        width: 100%;
+        }
+        }
+
+.div2 , .div3 , .div4 , .div5 {
+    height: 300px;
+}
+
+.columna {
+    float: left;
+    width: 30%;
+    height: 800px;
+    padding: 10px;
+    margin: 30px 5px 30px 5px;
+    background-color:rgb(8, 71, 68);
+    border: solid 2px white;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:800px) {
+.columna {
+width: 100%;
+}
+}
+
+.pie {
+    float: left;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    color: white;
+}
